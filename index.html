@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Tratores</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+   <section id="intro-section" class="intro-container">
+    <h2>Minha Inspiração</h2>
+    <p>A ideia para este catálogo surgiu de horas dedicadas aos jogos Farming Simulator 2015 e Farming Simulator 2019. O objetivo inicial era simples: me tornar um fazendeiro de sucesso. No entanto, a necessidade de expandir a produção me levou a planejar, comprar e operar estrategicamente diversos tipos de maquinários, incluindo tratores, colheitadeiras e implementos agrícolas de médio e grande porte.</p>
+    <p>Essa imersão constante na administração da minha fazenda acabou transcendendo o jogo. O contato com as especificações e o funcionamento dos equipamentos despertou um interesse real e uma forte admiração pela engenharia, potência e tecnologia por trás dessas máquinas pesadas. Este site é o resultado direto desse fascínio, transformando horas de gameplay em um projeto divertido (pelo menos para mim).</p>
+    <button id="start-btn">Ver Catálogo de Tratores</button>
+</section>
+
+    <div id="catalog-section" class="hidden-section">
+        <header>
+            <h1>Catálogo de Tratores</h1>
+            <p>Clique em um trator para ver os detalhes</p>
+        </header>
+
+        <main class="grid-container" id="catalog">
+            <div class="card" data-marca="John Deere" data-modelo="6130J" data-potencia="130 cv" data-motor="4 cilindros 4.5L" data-transmissao="PowerQuad 16x16" data-peso="5.300 kg" data-uso="Preparo de solo e plantio">
+                <div class="card-img-container">
+                    <img src="https://d36qmzp7jiean8.cloudfront.net/cliente_006693/veiculos/1261208_202512081340123756201_big.webp" alt="6130J">
+                </div>
+                <div class="card-content">
+                    <span class="tag">John Deere</span>
+                    <h2 class="card-title">6130J</h2>
+                    <p class="card-subtitle">130 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Massey Ferguson" data-modelo="MF 4709" data-potencia="100 cv" data-motor="AGCO Power 3 cilindros" data-transmissao="Mecânica 12x12" data-peso="4.200 kg" data-uso="Trabalhos gerais e pecuária">
+                <div class="card-img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7oqgUotRPqwM7zFENp6fntHJgPTnjuMzG3A&s" alt="MF 4709">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Massey Ferguson</span>
+                    <h2 class="card-title">MF 4709</h2>
+                    <p class="card-subtitle">100 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="New Holland" data-modelo="T6.130" data-potencia="130 cv" data-motor="4 cilindros NEF 4.5L" data-transmissao="Electro Command 16x16" data-peso="5.500 kg" data-uso="Lavouras de grãos e cana">
+                <div class="card-img-container">
+                    <img src="https://www.trucadao.com.br/_next/image?url=https%3A%2F%2Fd2o450bmsmjkde.cloudfront.net%2Fsystem%2Fimagens_anuncios%2Fimagems%2F001%2F413%2F861%2Fnormal%2F2b6ef22dc2.jpg&w=2048&q=75" alt="T6.130">
+                </div>
+                <div class="card-content">
+                    <span class="tag">New Holland</span>
+                    <h2 class="card-title">T6.130</h2>
+                    <p class="card-subtitle">130 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Case IH" data-modelo="Puma 185" data-potencia="182 cv" data-motor="FPT 6.7L Turbo" data-transmissao="Semi-Powershift 18x6" data-peso="6.780 kg" data-uso="Grandes culturas e tração pesada">
+                <div class="card-img-container">
+                    <img src="https://cnhi-p-001-delivery.sitecorecontenthub.cloud/api/public/content/50b6e42b7e0a4f92a191eb918085346d?v=8cee3d06&t=size1200" alt="Puma 185">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Case IH</span>
+                    <h2 class="card-title">Puma 185</h2>
+                    <p class="card-subtitle">182 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Valtra" data-modelo="BH194 HiTech" data-potencia="195 cv" data-motor="AGCO Power 66CW3" data-transmissao="Heavy Duty 12x4" data-peso="8.640 kg" data-uso="Canavial e preparo de solo pesado">
+                <div class="card-img-container">
+                    <img src="https://www.valtra.com.br/content/dam/public/valtra/pt-br/produtos/tratores/bhhitech/valtra-bh-hitech-vs-03.jpg" alt="BH194">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Valtra</span>
+                    <h2 class="card-title">BH194</h2>
+                    <p class="card-subtitle">195 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Caterpillar" data-modelo="MT765" data-potencia="320 cv" data-motor="Cat C9 ACERT" data-transmissao="Full Powershift 16x4" data-peso="14.500 kg" data-uso="Plantio em larga escala (Esteiras)">
+                <div class="card-img-container">
+                    <img src="https://assets.machinerypete.com/uploads/image/processed_image/38685880/full_size_img.axd" alt="MT765">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Caterpillar</span>
+                    <h2 class="card-title">MT765</h2>
+                    <p class="card-subtitle">320 cv</p>
+                </div>
+            </div>
+            
+            <div class="card" data-marca="Fendt" data-modelo="1050 Vario" data-potencia="517 cv" data-motor="MAN 12.4L" data-transmissao="VarioDrive (CVT)" data-peso="14.000 kg" data-uso="Alta potência e tecnologia de precisão">
+                <div class="card-img-container">
+                    <img src="https://assets.revistacultivar.com.br/f646417f-ec72-47e2-8370-d6de0949f856-thumb.jpg" alt="Fendt 1050">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Fendt</span>
+                    <h2 class="card-title">1050 Vario</h2>
+                    <p class="card-subtitle">517 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Case IH" data-modelo="Steiger 620" data-potencia="620 cv" data-motor="FPT Cursor 13" data-transmissao="Full Powershift 16x2" data-peso="25.000 kg" data-uso="Articulado para tração pesada extrema">
+                <div class="card-img-container">
+                    <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2022/07/09_steiger_FLP8994.jpg" alt="Steiger 620">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Case IH</span>
+                    <h2 class="card-title">Steiger 620</h2>
+                    <p class="card-subtitle">620 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="JCB" data-modelo="Fastrac 8330" data-potencia="348 cv" data-motor="Sisu 8.4L 6 cil." data-transmissao="CVT V-Tronic" data-peso="11.000 kg" data-uso="Transporte e tarefas de alta velocidade">
+                <div class="card-img-container">
+                    <img src="https://editorial.pxcrush.net/farmmachinerysales/general/editorial/jcb-fastrac-8330-s2we.jpg?width=1024&height=682" alt="Fastrac 8330">
+                </div>
+                <div class="card-content">
+                    <span class="tag">JCB</span>
+                    <h2 class="card-title">Fastrac 8330</h2>
+                    <p class="card-subtitle">348 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Lamborghini" data-modelo="Spark 215 VRT" data-potencia="214 cv" data-motor="Deutz TCD 6.1 L06" data-transmissao="VRT Contínua" data-peso="8.100 kg" data-uso="Operações de campo aberto e transporte">
+                <div class="card-img-container">
+                    <img src="https://i.ytimg.com/vi/79zUMwwH8O8/maxresdefault.jpg" alt="Spark 215 VRT">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Lamborghini</span>
+                    <h2 class="card-title">Spark 215 VRT</h2>
+                    <p class="card-subtitle">214 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Claas" data-modelo="Xerion 5000" data-potencia="530 cv" data-motor="Mercedes-Benz OM 471" data-transmissao="CMATIC (CVT)" data-peso="16.500 kg" data-uso="Tração extrema e implementos de grande porte">
+                <div class="card-img-container">
+                    <img src="https://dnge9sb91helb.cloudfront.net/imagetilewm/product/5222d962/claas-xerion-5000-trac-ts,2e100300.jpg" alt="Xerion 5000">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Claas</span>
+                    <h2 class="card-title">Xerion 5000</h2>
+                    <p class="card-subtitle">530 cv</p>
+                </div>
+            </div>
+
+            <div class="card" data-marca="Kubota" data-modelo="M7-172" data-potencia="170 cv" data-motor="Kubota V6108" data-transmissao="KVT (CVT)" data-peso="6.600 kg" data-uso="Agricultura mista e pecuária">
+                <div class="card-img-container">
+                    <img src="https://images.tractorzoom.com/lot/2022-kubota-m7-172-deluxe-6df77cea-fdb1-46fa-a024-c9eac1dab16a/img-2.jpeg" alt="M7-172">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Kubota</span>
+                    <h2 class="card-title">M7-172</h2>
+                    <p class="card-subtitle">170 cv</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-details" id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
